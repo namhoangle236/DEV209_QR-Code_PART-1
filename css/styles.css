@@ -1,0 +1,55 @@
+
+
+body {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    position: relative;
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+}
+
+img {
+    width: 288px;
+    height: 288px;
+    border-radius: 15px;
+}
+
+.QR-card {
+    background-color: hsl(0, 0%, 100%);
+    display: inline-block;
+    width: 288px;
+    text-align: center;
+    /* border: 3px solid #333; */
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+.card-title {
+    color: hsl(218, 44%, 22%);
+    font-style: bold;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.card-desc {
+    color: hsl(216, 15%, 48%);
+    padding: 12px;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: #333;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display:none;
+}
+
